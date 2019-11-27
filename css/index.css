@@ -1,0 +1,47 @@
+.jumbotron
+{
+    background-color: #f4511e;
+    color: #ffffff;
+    padding: 100px 25px;
+}
+.bg-grey
+{
+    background-color: #f6f6f6;
+}
+.container-fluid
+{
+    padding: 60px 50px;
+}
+.logo
+{
+    font-size: 200px;
+    color: #f4511e;
+}
+.logo-small
+{
+    font-size: 50px;
+    color: #f4511e;
+}
+.thumbnail
+{
+    padding: 0 0 15px 0;
+    border: 1px solid #f4511e;
+    border-radius: 0;
+    background-color: #f4511e;
+    color: white;
+}
+.thumbnail img
+{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px)
+{
+    .col-sm-4
+    {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
