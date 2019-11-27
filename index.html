@@ -1,118 +1,478 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>It's Me HP</title>
-    <meta charset="utf-8">
-    <meta name="viewpoint" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/index.css">
-  </head>
-  <body>
-    <div class="jumbotron text-center">
-      <h1>Company</h1>
-      <p>HARDIK PATHAR</p>
-      <p>Drop me a mail, if any query!!</p>
-      <form class="form-inline">
-          <div class="input-group">
-            <input type="email" class="form-control" size="50" placeholder="Email Address" required>
-            <div class="input-group-btn">
-                <button type="button" class="btn btn-danger">Send</button>
-            </div>
-          </div>
-      </form>
-    </div>
+<html>
+    
+<head>
+     <title>My Portfolio</title>
 
-    <div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-8">
-        <h2>About Me</h2>
-        <button class="btn btn-default btn-lg">Get in Touch</button>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body background="img/back.jpg" onload="show()">
+
+    <header>
+    
+    <div class="container">
+        <center> <h1 id="my">My Portfolio</h1> </center>
+    <div class="row no-gutters">
+
+            <div class="col-lg-4 col-md-4">
+                    <img id="image" src="img/m1.jpg">
+                </div>
+
+        <div class="col-lg-8 col-md-8">
+            
+            <div class="d-flex bg-dark flex-column">
+                <div class="p-5 text-white">
+                    <div class="d-flex flex-row justify-content-between align-items-center">
+                        <h1 class="display-6">Hardik Pathar</h1>
+                    </div>
+                    <br>
+                    <div class="d-flex flex-row justify-content-between align-items-center">
+                        <div> <a href="https://www.linkedin.com/in/hardik-pathar-78196b141/" class="text-white"> <i class="fa fa-linkedin-square fa-2x ln-style"></i> </a> </div>
+                        <div> <a href="https://twitter.com/PatharHardik" class="text-white"> <i class="fa fa-twitter fa-2x tw-style"></i> </a> </div>
+                        <div> <a href="https://www.instagram.com/hardikpathar158/" class="text-white"> <i class="fa fa-instagram fa-2x in-style"></i> </a> </div>
+                        <div> <a href="https://www.facebook.com/hardik.pathar.12" class="text-white"> <i class="fa fa-facebook fa-2x fb-style"></i> </a> </div>
+                    </div>
+                </div>
+
+                <div class="s1">
+                    <h3>Learner</h3>
+                </div>
+
+                <div class="d-flex flex-row text-center text-white">
+                    <div class="p-4 bg-success font-div" data-toggle="collapse" data-target="#personal">
+                        <i class="fa fa-home fa-2x d-block"></i> Personal details
+                    </div>
+                    <div class="p-4 bg-danger font-div" data-toggle="collapse" data-target="#education">
+                        <i class="fa fa-graduation-cap fa-2x d-block"></i> Education details & Skills & Certificates
+                    </div>
+                    <div class="p-4 bg-primary font-div" data-toggle="collapse" data-target="#project">
+                        <i class="fa fa-folder fa-2x d-block"></i> Projects
+                    </div>
+                    <div class="p-4 bg-warning font-div" data-toggle="collapse" data-target="#contact">
+                        <i class="fa fa-envelope fa-2x d-block"></i> Contact Me
+                    </div>
+
+                </div>
+            </div>            
+
         </div>
+
         
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-signal logo"></span>
-        </div>
-    </div>
+
+    </div>  
     </div>
 
-    <div class="container-fluid bg-grey">
-    <div class="row">
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-globe logo"></span>
-        </div>
-        <div class="col-sm-8">
-        <h2>My Values</h2>
-        <h4><strong>MISSION : </strong>My mission is to serve IT industry in whatever way's it can be.</h4>
-        <p><strong>VISION : </strong>My vision is to be a finest Fullstack Web Developer.</p>
+    </header>
+
+    <!--SECTION - 1    START-->
+    <div class="container">
+        <div class="collapse" id="personal">
+
+            <div class="p-5 text-white bg-success">
+                <h2>Details</h2>
+                <p>My aim is to bring changes in the life of the people with the help of technology in whatever ways I can. And to help organisation to achieve their goals by showcasing my skills.</p>
+            </div>
+
+            <div class="p-5 card card-body">
+                <table style="width: 85%;">
+                    <tr>
+                        <th>First name : </th>
+                        <td>HARDIK</td>
+                    </tr>
+
+                    <tr>
+                        <th>Middle name : </th>
+                        <td>VIJAYBHAI</td>
+                    </tr>
+
+                    <tr>
+                        <th>Last name : </th>
+                        <td>PATHAR</td>
+                    </tr>
+                </table>
+                <br>
+                <hr>
+                <br>
+                <table style="width: 154%;">    
+                    <tr>
+                        <th>E-mail ID : </th>
+                        <td><a href="mailto:patharhardik158@outlook.com"> <u> patharhardik158@outlook.com </u> </a> </td>
+                    </tr>
+
+                    <tr>
+                        <th>Date of birth : </th>
+                        <td>21<sup>st</sup> November, 1997</td>
+                    </tr>
+
+                    <tr>
+                        <th>Gender : </th>
+                        <td>Male</td>
+                    </tr>
+
+                    <tr>
+                        <th>Blood Group : </th>
+                        <td>O-Positive</td>
+                    </tr>
+                </table>
+                <hr>
+                <table style="width: 103%;">
+                    <tr>
+                        <th>Present Address : </th>
+                        <td>"232", D-Block,<br>REVA Hostel,<br> REVA University,<br>Yelahanka-560064,<br>Bengaluru,<br>Karnataka</td>
+                    </tr>
+                </table>
+                <hr>
+                <table style="width: 102%;">
+                    <tr>
+                        <th>Permanent Address : </th>
+                        <td>"BHAGIRATH",<br>Street no.-5,<br>Palace Road,<br>Radha Krishna Nagar,<br>Gondal-360311,<br>Gujarat</td>
+                    </tr>
+                </table>
+                <br>
+                <hr>
+                <br>
+                <table style="width: 90%;">
+                    <tr>
+                        <th>Language known : </th>
+                        <td>
+                            <ol>
+                                <b> <li>English</li> </b>
+                                    <ul>
+                                        <li>Read</li>
+                                        <li>Write</li>
+                                        <li>Speak</li>
+                                    </ul>
+                                
+                                <b> <li>Hindi</li> </b>
+                                    <ul>
+                                        <li>Read</li>
+                                        <li>Speak</li>
+                                    </ul>
+
+                                <b> <li>Gujarati</li> </b>
+                                    <ul>
+                                        <li>Read</li>
+                                        <li>Speak</li>
+                                    </ul>
+                            </ol>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <hr>
+                <br>
+                <table style="width: 72%;">
+                    <tr>
+                        <th>Caste : </th>
+                        <td>Sagar</td>
+                    </tr>
+
+                    <tr>
+                        <th>Religion : </th>
+                        <td>Hindu</td>
+                    </tr>
+
+                    <tr>
+                        <th>Nationality : </th>
+                        <td>Indian</td>
+                    </tr>
+
+                    <tr>
+                        <th>Martial Status : </th>
+                        <td>Single</td>
+                    </tr>
+
+                   
+                </table>
+            </div>
+           
         </div>
     </div>
+    <!--END-->
+
+    <!--SECTION - 2-->
+    <div class="container">
+        <div class="collapse" id="education">
+            <div class="card card-body">
+
+                <!--EDUCATION SECTION-->
+                <br>
+                <div class="p-1 text-white bg-danger">    
+                <h3>Education Details</h3>
+                </div>
+                <br>
+                    <table border="border">
+                        <tr align="center">
+                            <th>Sl no.</th>
+                            <th>Course</th>
+                            <th>School / College name</th>
+                            <th>Percentage(00%/100) / CGPA(0.0/10)</th>
+                            <th>Year of Pass-out</th>
+                        </tr>
+    
+                        <tr align="center">
+                            <td>1.</td>
+                            <td>10th</td>
+                            <td>Saint Joseph's School, Una, Gujarat</td>
+                            <td>74.33 %</td>
+                            <td>2014</td>
+                        </tr>
+    
+                        <tr align="center">
+                            <td>2.</td>
+                            <td>12th</td>
+                            <td>Shakti Higher Secondary School, Rajkot, Gujarat</td>
+                            <td>72.15 %</td>
+                            <td>2016</td>
+                        </tr>
+    
+                        <tr align="center">
+                            <td>3.</td>
+                            <td>B.Tech in CSE</td>
+                            <td>REVA University, Bengaluru</td>
+                            <td>89 % (Till 6th-SEM)</td>
+                            <td>2020</td>
+                        </tr>
+                    </table>
+                <br>
+                <hr>
+                <br>
+
+                <!--SKILLS SECTION-->
+                <div class="p-1 text-white bg-danger">
+                <h3>Skills</h3>
+                </div>
+                <br>
+                    <h5>CORE JAVA</h5>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%;">
+                        </div>
+                    </div>
+
+                <br>
+                    <h5>HTML & CSS & BOOTSTRAP</h5>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%;">
+                        </div>
+                    </div>
+
+                <br>
+                    <h5>C LANGUAGE</h5>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 60%;">
+                        </div>
+                    </div>
+
+                <br>
+                    <h5>MySQL</h5>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 85%;">
+                        </div>
+                    </div>
+
+                <br>
+                    <h5>PYTHON</h5>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 5%;">
+                        </div>
+                    </div>
+
+                    <!--CERTIFICATES SECTION-->
+                    <br>
+                    <hr>
+                    <br>
+                    <div class="p-1 text-white bg-danger">
+                        <h3>Certificates</h3>
+                    </div>
+                    <br>
+
+                    <h4><u> Curriculum Activities : </u></h4>
+                    <div class="row">
+                        <div class="col p-5">
+                            <img id="c1" src="img/Java.jpg">
+                            <div id="icons"> 
+                                <a href="img/Java.jpg"><i class="fa fa-download fa-1x d-block text-white"></i></a>
+                            </div>
+                            <br>
+                            <p class="certificates1">JAVA</p>
+                        </div>
+
+                        <div class="col p-5">
+                            <img id="c2" src="img/C_Language.jpg">
+                            <div id="icons">
+                                <a href="img/C Language.jpg"><i class="fa fa-download fa-1x d-block text-white"></i></a>
+                            </div>
+                            <br>
+                            <p class="certificates1">C Language</p>
+                        </div>
+                    </div>
+
+                    <h4><u> Co-Curricular Activities : </u></h4>
+                    <div class="row">
+                        <div class="col p-5">
+                            <img id="c1" src="img/Karate.jpg">
+                            <div id="icons">
+                                <a href="img/Karate.jpg"><i class="fa fa-download fa-1x d-block text-white"></i></a>
+                            </div>
+                            <br>
+                            <p class="certificates2">Black belt in Karate</p>
+                        </div>
+
+                        <div class="col p-5">
+                            <img id="c2" src="img/Walkathon.jpg">
+                            <div id="icons">
+                                <a href="img/Walkathon.jpg"><i class="fa fa-download fa-1x d-block text-white"></i></a>
+                            </div>
+                            <br>
+                            <p class="certificates1">Walkathon</p>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+    <!--END-->
+
+
+    <!--SECTION-3  START-->
+    <div class="container">
+        <div class="collapse" id="project">
+
+            <div class="p-5 text-white bg-primary">
+                <h3 class="p-3">Projects</h3>
+            </div>
+
+            <div class="card card-body">
+                <div class="card-deck">
+                    
+                    <div class="card">
+                        <center> <div class="card-header text-uppercase font-weight-bold">
+                            Faculty Detail Management System
+                        </div> </center>
+                        <div class="card-body">
+                            <p>Faculty detail management system is a web-based project that allows faculties to store their details such as Aadhar card, Qualification details, Certificates in the database for remote access and provides permanent storage.</p>
+                            <p>This project was implemented using : </p>
+                            <p><b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frontend : </b> HTML5, CSS, JS</p>
+                            <p><b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Backend : </b> MySQL database</p>
+                            <p>Connectivity between frontend and database was done using <b>"JSP"</b> and the local server used was <b>"Apache Tomcat Server".</b> </p>
+                        </div>
+                        <div class="card-footer bg-dark text-white">
+                            <center> <p>February, 2019 - May, 2019</p> </center>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END-->
+
+
+    <!--SECTION-4  START-->
+    <div class="container">
+        <div class="collapse" id="contact">
+            
+            <div class="p-5 text-white bg-warning">
+                <h3 class="p-2">Contact Me </h3>
+            </div>
+
+            <div class="card card-body">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-md-8 col-12">
+                        
+                        <form action="mailto:patharhardik158@outlook.com" method="post">
+                            <div class="form-group">
+                                <div class="input-group input-group-lg">
+                                     <span class="p-3 input-group-addon bg-warning text-white">
+                                         <i class="fa fa-user"></i>
+                                     </span>
+                                     <input type="text" id="cname1" class="p-3 form-control bg-dark text-white" placeholder="Name" autofocus>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-group input-group-lg">
+                                    <span class="p-3 input-group-addon bg-warning text-white">
+                                        <i class="fa fa-envelope"></i>
+                                    </span>
+                                    <input type="email" id="cname2" class="p-3 form-control bg-dark text-white" placeholder="E-mail">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-group input-group-lg">
+                                     <span class="p-3 input-group-addon bg-warning text-white">
+                                         <i class="fa fa-envelope"></i>
+                                     </span>
+                                    <textarea id="message" placeholder="Message" class="form-control p-3 bg-dark text-white"></textarea>
+                                </div>
+                            </div>
+                            
+                            <center> <a href="mailto:patharhardik158@outlook.com"> <input type="submit" class="btn btn-danger" value="SEND" onclick="send();"> </a> </center>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!--END-->
+
+
+    <div class="p-2 q_style container">
+        <br>
+        <center><h4> "LIFE IS LIKE RIDING A BICYCLE. TO KEEP YOUR BALANCE YOU MUST KEEP MOVING."</h4></center>
     </div>
 
-    <div class="container-fluid text-center">
-        <h2>SERVICES</h2>
-        <h4>What we offer</h4>
-        <br>
-        <div class="row">
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-off logo-small"></span>
-                <h4>POWER</h4>
-            </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-heart logo-small"></span>
-                <h4>LOVE</h4>
-            </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-lock logo-small"></span>
-                <h4>JOB DONE</h4>
-            </div>
-        </div>
-        <br>
-        <br>
-        <div class="row">
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-leaf logo-small"></span>
-                <h4>GREEN</h4>
-            </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-certificate logo-small"></span>
-                <h4>CERTIFIED</h4>
-            </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-wrench logo-small"></span>
-                <h4>HARD WORK</h4>
-            </div>
-        </div>
+    <div class="container">
+    <footer class="p-5 text-center">
+        <h5 class="h5-style1">Created by </h5> <h5 id="me" class="h5-style2"><b>HARDIK  V.  PATHAR</b></h5>
+    </footer>
     </div>
 
-    <div class="container-fluid text-center bg-grey">
-        <h2>Portfolio</h2>
-        <h4>What I have created</h4>
-        <div class="row text-center">
-            <div class="col-sm-4">
-                <div class="thumbnail">
-                    <img src="img/india.jpg" alt="India">
-                    <p><strong>India</strong></p>
-                    <p>Yes, India is mine</p>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="thumbnail">
-                    <img src="img/paris.jpg" alt="Paris">
-                    <p><strong>Paris</strong></p>
-                    <p>Yes, I built Paris</p>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="thumbnail">
-                    <img src="img/newyork.jpg" alt="New York">
-                    <p><strong>New York</strong></p>
-                    <p>I built New York</p>
-                </div>
-            </div>
-        </div>
-    </div>
-  </body>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script>
+        $('.font-div').click(function()
+        {
+            $('.collapse').collapse('hide');
+        });
+
+        function send()
+        {
+            var name = document.getElementById('cname1').value;
+            var email = document.getElementById('cname2').value;
+            var mess = document.getElementById('message').value;
+            if(name!=='' && email!='' && mess!='')
+            {   
+                alert("You are being redirected....., Thank you!!");
+            }
+            else
+            {
+                alert("Please provide some content to send");
+            }
+        }
+
+        function show()
+        {
+            alert('If possible, view it in Desktop Site');
+        }
+    </script>
+
+</body>
+
 </html>

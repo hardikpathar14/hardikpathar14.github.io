@@ -1,7 +1,7 @@
 #my
 {
     color: burlywood;
-    font-family: cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: gray;
 }
 .s1
@@ -62,11 +62,12 @@ h6
 .h5-style2
 {
     color: cyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .q_style
 {
     width: 100%;
-    color: darkorange;
+    color: #f4511e;
 }
 #c1,#c2
 {
@@ -87,10 +88,6 @@ h6
 {
     width: 80%;
     height: 60px;
-}
-#me
-{
-    font-family: cursive;
 }
 
 
