@@ -32,7 +32,7 @@ background: url("image.png") center no-repeat;
   padding : 40px;
   position : absolute;
   top : 50%;
-  right : 50%;
+  right : 40%;
   transform : translate(-50%,-50%);
   background : #FDF3F3;
   text-align : center;
