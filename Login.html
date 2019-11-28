@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+
+<!--<%@page import="java.sql.SQLException"%>
+<%@page import="java.sql.DriverManager"%>
+<%@page import="java.sql.ResultSet"%>
+<%@page import="java.sql.PreparedStatement"%>
+<%@page import="java.sql.Connection"%>-->
+
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login-css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+      <!--<h1><b><center> University </center></b></h1>-->
+  <div class="login">
+
+    <form class="box" action="Dashboard.html" method="post">
+
+      <h1><b> Faculty </b></h1>
+      <h2> Login </h2>
+
+      <input type="text" placeholder="User Name" required onkeyup="lettersOnly(this)">
+      <input type="password" placeholder="Password" required onkeyup="charnummix(this)">
+      <a href="Dashboard.html"><input type="submit" value="Login"></a>
+
+      <a href="forgot.html"> Forgot password !!</a>
+
+    </form>
+    <a href="Home.html"><button class="button"><i class="fa fa-home">  Home </i></button></a>
+
+  </div>
+
+
+  <script>
+    function lettersOnly(input)
+    {
+      var reguralexpression1 = /[^a-z]/gi;
+      input.value = input.value.replace(reguralexpression1,"");
+    }
+
+    function charnummix(input)
+    {
+      var reguralexpression3 = /[^0-9][^a-z]/gi;
+      input.value = input.value.replace(reguralexpression3,"");
+    }
+  </script>
+
+
+
+  </body>
+</html>

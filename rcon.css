@@ -1,0 +1,163 @@
+body
+{
+  background: url("image.png") center no-repeat;
+    height: 90vh;
+    background-size:cover;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h3 b
+{
+  color: Red;
+}
+
+.button
+{
+  border: none;
+  color: #75223b;
+  padding: 30px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 2%;
+}
+
+.button:hover
+{
+  background-color: #e5b7e2;
+}
+
+h1
+{
+  color: black;
+}
+
+.call1
+{
+  right: 20%;
+  list-style: none;
+  margin: 10px 30px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 55px 55px;
+  color: #800000;
+  border: 1px solid #800000;
+  border-radius: 50%;
+  transition: .5s;
+}
+
+.call2
+{
+  left: 20%;
+  right: 20%;
+  list-style: none;
+  margin: 10px 30px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px 20px;
+  color: #800000;
+  border: 1px solid #800000;
+  border-radius: 50%;
+  transition: .5s;
+}
+
+.box1
+{
+  opacity: 0.8;
+  width :300px;
+  padding : 40px;
+  position : absolute;
+  top : 45%;
+  left : 30%;
+  transform : translate(-50%,-50%);
+  background : #C0C0C0;
+  text-align : center;
+  border-radius: 20px;
+}
+
+.box1 h1
+{
+  color :black;
+  text-transform: uppercase;:
+  font-weight: 500;
+}
+
+.box2
+{
+  opacity: 0.8;
+  width :300px;
+  padding : 40px;
+  position : absolute;
+  top : 45%;
+  left : 70%;
+  transform : translate(-50%,-50%);
+  background : #C0C0C0;
+  text-align : center;
+  border-radius: 20px;
+}
+
+.box2 h1
+{
+  color :black;
+  text-transform: uppercase;:
+  font-weight: 500;
+}
+
+.pulse
+{
+  position:absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width:80px;
+  height: 80px;
+  background: #3037b5;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 84px;
+  font-size: 48px;
+
+}
+.pulse:before,
+.pulse:after
+{
+  content: '';
+  display:block;
+  position:absolute;
+  border: 50%;
+  border:1px solid #3037b5;
+  left: -20px;
+   right: -20px;
+   top: -20px;
+   bottom: -20px;
+   border-radius: 50%;
+   animation: animate 1.5s linear infinite;
+   opacity: 0;
+   backface-visibility: hidden;
+}
+.pulse:after
+{
+  animation-delay: 0.5s;
+}
+@keyframes animate
+{
+  0%
+  {
+    transform: scale(0.5);
+    opacity: 0;
+
+  }
+  50%
+  {
+      opacity: 1;
+  }
+  100%
+  {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}

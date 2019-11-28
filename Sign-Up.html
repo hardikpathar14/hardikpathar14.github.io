@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up</title>
+
+    <link rel="stylesheet" href="signUp-css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+    <!--<h1><b><center> University </center></b></h1>-->
+
+    <a href="AdminDashBoard.html"><button class="button"><i class="fa fa-arrow-circle-left" aria-hidden="true"> Back </i></button></a>
+
+      <div class="wrap">
+        <form class="box" action="SignUpThankUp.html" method="post">
+        <h1><center> Faculty </center></h1>
+        <h3><center>Sign Up</center></h3>
+
+          <input type="text" placeholder="First Name" required onkeyup="lettersOnly(this)">
+
+          <input type="text" placeholder="Last Name" required onkeyup="lettersOnly(this)">
+
+          <input type="email" placeholder="E-email" required>
+
+          <input type="number" placeholder="Mobile no." required onkeyup="numbersOnly(this)">
+
+          <input type="password" placeholder="Password" required onkeyup="charnummix(this)">
+
+          <input type="text" placeholder="Department Name" required onkeyup="lettersOnly(this)">
+
+          <input type="number" placeholder="Staff Room number" required onkeyup="numbersOnly(this)">
+
+          <a href="SignUpThankUp.html"><input type="submit" value="Submit"></a>
+
+        </form>
+      </div>
+
+<script>
+  function lettersOnly(input)
+  {
+    var reguralexpression1 = /[^a-z]/gi;
+    input.value = input.value.replace(reguralexpression1,"");
+  }
+  function numbersOnly(input)
+  {
+    var reguralexpression2 = /[^0-9]/gi;
+    input.value = input.value.replace(reguralexpression2,"");
+  }
+  function charnummix(input)
+  {
+    var reguralexpression3 = /[^0-9][^a-z]/gi;
+    input.value = input.value.replace(reguralexpression3,"");
+  }
+</script>
+  </body>
+</html>

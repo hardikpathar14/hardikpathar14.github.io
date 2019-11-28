@@ -1,0 +1,80 @@
+body
+{
+  background: url("image.png") center no-repeat;
+  height: 90vh;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  font-family: "Arial", serif;
+  background-color: #f4f4f4;
+  font-size: 17px;
+}
+
+h1
+{
+  font-family: monospace;
+  color: white;
+}
+.navbar
+{
+  transition: transparent;
+  overflow: hidden;
+  height: 57px;
+}
+
+.navbar a
+{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.side-nav
+{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 14%;
+  left: 0%;
+  background-color: white;
+  opacity: 0.8;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.side-nav a
+{
+  padding: 10px 10px 10px 30px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #404040;
+  display: block;
+  transition: 0.3s;
+}
+
+.side-nav a:hover
+{
+  color:#fff;
+}
+
+.side-nav .btn-close
+{
+  position: absolute;
+  top: 0;
+  right: 22px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+#main
+{
+  position: fixed;
+  right: 1%;
+  top: 50%;
+  width: 100%;
+}

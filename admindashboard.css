@@ -1,0 +1,58 @@
+body
+{
+  background: url("image.png") center no-repeat;
+  height: 90vh;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+h1
+{
+  color: white;
+  font-family: monospace;
+  font-size: 28px;
+}
+
+h2
+{
+  color: white;
+  font-family: monospace;
+  font-size: 25px;
+}
+
+.box
+{
+  opacity: 0.9;
+  width :200px;
+  padding : 40px;
+  position : absolute;
+  cursor: pointer;
+  top : 55%;
+  left : 50%;
+  transform : translate(-50%,-50%);
+  background : #FDF3F3;
+  text-align: center;
+  border-radius: 20px;
+  border: dotted;
+}
+
+.button
+{
+  border: none;
+  color: #75223b;
+  padding:25px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-top: 2px;
+  margin-left: 89%;
+}
+
+.add
+{
+  font-size: 70px;
+  color: black;
+  margin-top: 16%;
+  margin-left: 49%;
+}

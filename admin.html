@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Admin login</title>
+
+    <link rel="stylesheet" href="Admin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+    <div class="wrap">
+      <form class="box" action="AdminDashboard.html" method="post">
+      <h1> Administrative </h1>
+      <h3><center>Login</center></h3>
+
+        <input type="text" placeholder="Login" required onkeyup="lettersOnly(this)">
+
+        <input type="password" placeholder="Password" required onkeyup="charnummix(this)">
+
+        <a href="AdminDashboard.html"><input type="submit" value="Login"></a>
+
+      </form>
+    </div>
+
+    <a href="Home.html"><button class="button"><i class="fa fa-home">  Home </i></button></a>
+
+
+    <script>
+      function lettersOnly(input)
+      {
+        var reguralexpression1 = /[^a-z]/gi;
+        input.value = input.value.replace(reguralexpression1,"");
+      }
+
+      function charnummix(input)
+      {
+        var reguralexpression3 = /[^0-9][^a-z]/gi;
+        input.value = input.value.replace(reguralexpression3,"");
+      }
+    </script>
+
+
+  </body>
+</html>

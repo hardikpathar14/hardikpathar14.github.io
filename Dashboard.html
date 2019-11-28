@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="dashboard.css">
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+
+  </head>
+  <body>
+
+    <div>
+      <h1><center><b> Dashboard </b></center></h1>
+    </div>
+    <nav class = "navbar">
+      <span class = "open-slide">
+
+        <a href="#" onclick="openSideMenu()">
+
+          <svg width = "30" height = "30">
+
+            <path d= "M0,5 30,5" stroke = "#fff"
+             stroke-width = "5"/>
+            <path d= "M0,14 30,14" stroke = "#fff"
+              stroke-width = "5"/>
+            <path d= "M0,23 30,23" stroke = "#fff"
+               stroke-width = "5"/>
+
+          </svg>
+
+        </a>
+
+      </span>
+    </nav>
+
+  <div id="side-menu" class="side-nav">
+    <a href="#" class = "btn-close" onclick="closeSideMenu()">&times;</a>
+    <hr>
+    <a href="Profile.html"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;Profile</a>
+    <hr>
+    <a href="Gallery.html"><i class="fa fa-picture-o" aria-hidden="true"></i>&nbsp;Gallery </a>
+    <hr>
+    <a href="Admincont.html"><i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;Admin Contact</a>
+    <hr>
+    <a href="home.html"> <i class="fa fa-sign-out" aria-hidden="true"></i>&nbsp;Logout</a>
+    <hr>
+  </div>
+
+  <div id = "main">
+    <h1><center> Welcome <u> user </u></center></h1>
+  </div>
+
+
+
+
+
+  <script>
+
+    function openSideMenu()
+    {
+      document.getElementById('side-menu').style.width = '250px';
+      document.getElementById('main').style.marginLeft = '250px';
+    }
+
+    function closeSideMenu()
+    {
+      document.getElementById('side-menu').style.width = '0px';
+      document.getElementById('main').style.marginLeft = '0px';
+    }
+
+  </script>
+
+
+
+
+  </body>
+</html>

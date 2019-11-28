@@ -1,0 +1,36 @@
+body
+{
+  background: url("image.png") center no-repeat;
+  height: 90vh;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+}
+.call
+{
+  right: 20%;
+  list-style: none;
+  margin: 10px 30px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px 20px;
+  color: #800000;
+  border: 1px solid #800000;
+  border-radius: 50%;
+  transition: .5s;
+}
+
+.box
+{
+  opacity: 0.9;
+  width :300px;
+  padding : 40px;
+  position : absolute;
+  top : 45%;
+  left : 50%;
+  transform : translate(-50%,-50%);
+  background : #C0C0C0;
+  text-align : center;
+  border-radius: 20px;
+}

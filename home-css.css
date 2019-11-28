@@ -1,0 +1,173 @@
+body
+{
+  background: url("home-gif.gif") center no-repeat;
+  height: 90vh;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  font-family: Segoe UI;
+
+}
+
+.logo1
+{
+  margin-left: 2%;
+  margin-top: 3%;
+  height: 20%;
+}
+
+.logo2
+{
+  margin-left: 65%;
+  margin-top: 3%;
+  height: 20%;
+}
+
+.menudropdown1
+{
+  width: 100%;
+  height: 100px;
+  margin: 0px auto;
+}
+
+h1
+{
+    font-family: monospace;
+    font-size: 30px;
+    text-align: center;
+    color: orange;
+    top: 1%;
+    margin-bottom: 0px;
+}
+
+h3
+{
+
+      font-family: monospace;
+      font-size: 25px;
+      text-align: center;
+      color: orange;
+      margin-bottom: 0px;
+}
+
+.menudropdown1 ul
+{
+  padding-top: 20px;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.menudropdown1 ul li
+{
+  float:left;
+  width: 263px;
+  height: 40px;
+  background-color: white;
+  color: white;
+  opacity: 0.7;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+  margin: 3px;
+  border-radius: 20%;
+}
+
+ul li a
+{
+  text-decoration:none;
+  color: #8B4513;
+  display:grid;
+  border-radius: 10%;
+}
+
+ul li a:hover
+{
+  background-color: #c97ac8;
+}
+
+ul li ul li
+{
+  display: none;
+}
+
+ul li:hover ul li
+{
+  display: block;
+}
+
+
+
+@-webkit-keyframes Gradient
+{
+  0%
+  {
+    background-position: 0% 50%
+  }
+  50%
+  {
+      background-position: 100% 50%
+  }
+  100%
+  {
+    background-position: 0% 50%
+  }
+}
+
+.middle
+{
+  opacity: 0.7;
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+.icon
+{
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  background: #f1f1f1;
+  margin: 10px;
+  border-radius: 30%;
+  box-shadow: 0 5px 15px -5px #00000070;
+  color: #3498db;
+  overflow: hidden;
+  position: relative;
+}
+
+.icon i
+{
+  line-height: 90px;
+  font-size: 26px;
+  transition: 0.2s linear;
+}
+
+.icon:hover i
+{
+  transform: scale(1.3);
+  color: #f1f1f1;
+}
+
+#container
+{
+  min-height: 100%;
+}
+
+#main
+{
+  overflow: auto;
+  padding-bottom: 30px;
+}
+
+#footer
+{
+  background-color: lightblue;
+  position: relative;
+  height: 230px;
+  margin-top: -100px;
+  clear: both;
+  color: blue;
+}

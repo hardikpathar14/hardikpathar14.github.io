@@ -1,0 +1,46 @@
+body
+{
+  background: url("image.png") center no-repeat;
+  height: 90vh;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  font-family:monospace;
+  font-size: 17px;
+}
+
+h1
+{
+  color: orange;
+}
+
+nav
+{
+  background-color: lightblue;
+  overflow: hidden;
+  height: 6px;
+}
+
+.details
+{
+  color: white;
+  margin-left: 300px;
+}
+
+.details hr
+{
+  margin-left: 230px;
+  width: 500px;
+}
+
+.button
+{
+  border: none;
+  color: #75223b;
+  padding:15px 15px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 0.6%;
+}
