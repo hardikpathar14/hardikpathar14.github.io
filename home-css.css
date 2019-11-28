@@ -1,7 +1,6 @@
 body
 {
-  background: url("home-gif.gif") center no-repeat;
-  background-color: blue;
+  background: url("home1.png") center no-repeat;
   height: 90vh;
   background-size: cover;
   padding: 0;
@@ -36,7 +35,7 @@ h1
     font-family: monospace;
     font-size: 30px;
     text-align: center;
-    color: orange;
+    color:grey;
     top: 1%;
     margin-bottom: 0px;
 }
